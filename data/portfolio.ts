@@ -1,0 +1,93 @@
+export const portfolioData = {
+    logo: "<Ajith/>",
+    name: "Ajith",
+    role: "Front End Developer",
+    tagline: "Hello! I'm Ajith, a Front End Developer",
+    description: "I'm a digital creator with a background in UI/UX design and a passion for building clean, modern, and user-centric web applications.",
+    about: {
+        title: "Passionate about Crafting Experiences",
+        content: "The creative journey is a process that goes beyond aesthetics. It's about understanding the user's needs, solving complex problems, and creating meaningful digital experiences. I specialize in building responsive, high-performance web applications using the latest technologies.",
+        resumeUrl: "/resume.pdf",
+        avatar: "/photo.jpg", // Placeholder until user provides
+        social: [
+            { name: "GitHub", url: "https://github.com", icon: "Github" },
+            { name: "LinkedIn", url: "https://linkedin.com", icon: "Linkedin" },
+            { name: "Twitter", url: "https://twitter.com", icon: "Twitter" },
+        ],
+    },
+    experience: [
+        {
+            role: "Lead Product Designer",
+            company: "Alto Labs",
+            period: "2022 - Present",
+            description: "Leading the design system and user experience for multiple high-impact projects. Collaborating with cross-functional teams to deliver premium products.",
+            tech: ["Next.js", "Figma", "Design Systems"],
+        },
+        {
+            role: "Senior UI/UX Designer",
+            company: "Global Industry",
+            period: "2021 - 2022",
+            description: "Designed intuitive user interfaces for enterprise-level applications, improving user engagement by 40%.",
+            tech: ["React", "UI/UX", "Tailwind CSS"],
+        },
+        {
+            role: "Junior Designer",
+            company: "Archis Academy",
+            period: "2019 - 2021",
+            description: "Assisted in the development and design of various client projects, gaining hands-on experience in the full product lifecycle.",
+            tech: ["HTML/CSS", "JavaScript", "Adobe XD"],
+        },
+    ],
+    projects: [
+        {
+            slug: "fintech-saas-dashboard",
+            title: "Fintech SaaS Dashboard",
+            description: "A comprehensive financial management dashboard featuring real-time data visualization and complex user flows.",
+            image: "/projects/project-1.jpg",
+            tech: ["Next.js", "Recharts", "Shadcn UI"],
+            liveUrl: "https://example.com",
+            githubUrl: "https://github.com",
+        },
+        {
+            slug: "health-data-intelligence",
+            title: "Health Data Intelligence",
+            description: "An AI-powered health analytics platform providing insights into patient data and medical trends.",
+            image: "/projects/project-2.jpg",
+            tech: ["React", "TypeScript", "D3.js"],
+            liveUrl: "https://example.com",
+            githubUrl: "https://github.com",
+        },
+        {
+            slug: "lumina-ai-identity",
+            title: "Lumina AI Identity",
+            description: "Brand identity and web design for a cutting-edge artificial intelligence startup.",
+            image: "/projects/project-3.jpg",
+            tech: ["Astro", "Tailwind CSS", "Framer Motion"],
+            liveUrl: "https://example.com",
+            githubUrl: "https://github.com",
+        },
+        {
+            slug: "zenfocus-app",
+            title: "ZenFocus App",
+            description: "A productivity application designed to help users maintain focus and achieve their daily goals.",
+            image: "/projects/project-4.jpg",
+            tech: ["React Native", "Firebase", "Expo"],
+            liveUrl: "https://example.com",
+            githubUrl: "https://github.com",
+        },
+    ],
+    skills: [
+        { category: "Frontend", items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Redux", "Framer Motion"] },
+        { category: "Design", items: ["Figma", "Adobe XD", "UI/UX Design", "Responsive Design"] },
+        { category: "Tools", items: ["Git", "GitHub", "Vercel", "npm", "VS Code"] },
+    ],
+    certifications: [
+        { name: "Meta Front-End Developer", issuer: "Meta / Coursera", date: "2023", icon: "Meta" },
+        { name: "UI/UX Design Specialization", issuer: "Google / Coursera", date: "2022", icon: "Google" },
+    ],
+    contact: {
+        email: "ajithpg2411@gmail.com",
+        whatsapp: "+91 9961699106",
+        linkedin: "https://linkedin.com/in/ajith-pg",
+    },
+};
