@@ -8,11 +8,12 @@ import { Badge } from "@/components/ui/badge";
 import { Metadata } from "next";
 
 interface ProjectPageProps {
-    params: { slug: string };
+    params: Promise<{ slug: string }>;
 }
 
 export async function generateMetadata({ params }: ProjectPageProps): Promise<Metadata> {
-    const project = portfolioData.projects.find((p) => p.slug === params.slug);
+    const { slug } = await params;
+    const project = portfolioData.projects.find((p) => p.slug === slug);
     if (!project) return { title: "Project Not Found" };
 
     return {
@@ -26,8 +27,9 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
     };
 }
 
-export default function ProjectPage({ params }: ProjectPageProps) {
-    const project = portfolioData.projects.find((p) => p.slug === params.slug);
+export default async function ProjectPage({ params }: ProjectPageProps) {
+    const { slug } = await params;
+    const project = portfolioData.projects.find((p) => p.slug === slug);
 
     if (!project) {
         notFound();
