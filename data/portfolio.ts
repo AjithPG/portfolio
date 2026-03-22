@@ -28,6 +28,7 @@ export const portfolioData = {
             company: "NEOM- Contract",
             period: "Feb 2024 — Apr 2025",
             location: "Riyadh, Saudi Arabia",
+            description:"",
             highlights:["Developed a Report a Business web application from scratch using React, TypeScript & Tailwind CSS for the NEOM’s Community",
                 "Led a 3-member frontend squad onsite, coordinating with backend teams to design and integrate RESTful APIs","Integrated Pega CRM with React frontend to streamline customer service workflows",
                 "Implemented Storybook for component documentation and design system standardization"
