@@ -30,7 +30,7 @@ export function Hero() {
         </div>
         <Button className="bg-foreground hover:bg-foreground/90 text-background rounded-xl px-6 py-4 h-auto flex items-center gap-2 transition-all font-semibold shadow-md active:scale-95">
           <Download className="h-5 w-5" />
-          Download CV
+          <a href={portfolioData.resumeUrl} target="_blank">Download CV</a>
         </Button>
       </div>
     </section>
