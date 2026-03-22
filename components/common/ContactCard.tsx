@@ -32,7 +32,7 @@ export function ContactCard({ label, value, url, icon, color }: ContactCardProps
             href={url}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-6 p-6 bg-card border border-border rounded-3xl shadow-sm hover:shadow-md transition-all duration-500 group cursor-default h-full"
+            className="flex items-center gap-6 p-6 bg-card border border-border rounded-3xl shadow-sm hover:shadow-md transition-all duration-500 group cursor-pointer h-full"
         >
             <div className={`p-4 rounded-2xl ${colorBg} text-white shadow-xl transform group-hover:scale-105 transition-all duration-300`}>
                 <Icon className="h-6 w-6" />

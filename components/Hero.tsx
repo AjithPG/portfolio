@@ -3,7 +3,9 @@
 import { Button } from "@/components/ui/button"
 import { portfolioData } from "@/data/portfolio"
 import Image from "next/image"
-import { Download } from "lucide-react"
+import { Download, Mail, Briefcase } from "lucide-react"
+
+
 
 export function Hero() {
   return (
@@ -26,12 +28,28 @@ export function Hero() {
                 {portfolioData.company}
               </p>
             )}
+            <div className="flex items-center gap-1.5 mt-2 text-muted-foreground transition-all duration-500 justify-center md:justify-start">
+              <Briefcase className="h-3.5 w-3.5" />
+              <span className="text-xs font-medium">5+ Years Experience</span>
+            </div>
+
           </div>
         </div>
-        <Button className="bg-foreground hover:bg-foreground/90 text-background rounded-xl px-6 py-4 h-auto flex items-center gap-2 transition-all font-semibold shadow-md active:scale-95">
-          <Download className="h-5 w-5" />
-          <a href={portfolioData.resumeUrl} target="_blank">Download CV</a>
-        </Button>
+        <div className="flex flex-wrap items-center gap-3 w-fit">
+          <Button asChild className="bg-foreground hover:bg-foreground/90 text-background rounded-lg px-6 py-3 h-auto flex items-center gap-2 transition-all font-semibold shadow-md active:scale-95 cursor-pointer">
+            <a href={portfolioData.resumeUrl || "#"} target="_blank" rel="noopener noreferrer">
+              <Download className="h-5 w-5" />
+              Download CV
+            </a>
+          </Button>
+          <Button asChild variant="outline" className="rounded-lg px-6 py-3 h-auto flex items-center gap-2 transition-all font-semibold border-primary bg-card text-foreground hover:bg-secondary shadow-sm active:scale-95 cursor-pointer">
+            <a href="#contact">
+              <Mail className="h-5 w-5" />
+              Contact Me
+            </a>
+          </Button>
+        </div>
+
       </div>
     </section>
 

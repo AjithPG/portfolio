@@ -2,7 +2,7 @@ export const portfolioData = {
     logo: "<Ajith/>",
     name: "Ajith PG",
     role: "Front End Engineer",
-    company: "TCS",
+    company: "TCS - Tata Consultancy Services",
     resumeUrl: "/resume.pdf",
     about: {
         title: "About",
@@ -75,7 +75,7 @@ export const portfolioData = {
             category: "Technology Stack",
             icon: "Layout",
             color: "blue",
-            items: ["React JS", "Next Js", "Redux", "TypeScript", "Material UI", "Tailwind CSS","Jest","Storybook","Node Js"],
+            items: ["React JS", "Next Js", "Javascript" , "TypeScript", "Redux","Material UI", "Tailwind CSS","SCSS","Shadcn UI","Tanstack Query","Jest","Storybook","MySQL"],
         },
         {
             category: "Design",
@@ -87,7 +87,7 @@ export const portfolioData = {
             category: "Tools",
             icon: "Box",
             color: "emerald",
-            items: ["Git", "GitHub", "VS Code", "Vite", "Vercel","Webpack","Jira","Postman","Chrome DevTools","Framer"],
+            items: ["Git", "GitHub", "VS Code", "Vite", "Vercel","Webpack","Jira","Postman","Chrome DevTools","Framer Motion","Rest API Integration"],
         },
     ],
     certifications: [

@@ -11,7 +11,7 @@ export function Header() {
                     </span>
                 </div>
                 <div className="flex items-center gap-4">
-                    <div className="bg-secondary/50 rounded-lg p-0.5 border border-border shadow-sm">
+                    <div className="bg-secondary/50 rounded-lg p-0.5 border border-border shadow-sm cursor-pointer">
                         <ModeToggle />
                     </div>
                 </div>
