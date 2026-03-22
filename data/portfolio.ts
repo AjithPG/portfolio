@@ -3,10 +3,11 @@ export const portfolioData = {
     name: "Ajith PG",
     role: "Front End Engineer",
     company: "TCS - Tata Consultancy Services",
-    resumeUrl: "/resume.pdf",
+    resumeUrl: "/Resume.pdf",
     about: {
         title: "About",
-        content: "Product-driven Front-End Engineer with 5+ years of experience building scalable, high-performance web applications using React, Next.js, JavaScript (ES6+), and TypeScript. Skilled at architecting modular, reusable UI systems and delivering pixel-perfect interfaces that enhance user engagement and business outcomes.",
+        content: `Product-driven Frontend Engineer with 5+ years of experience building scalable React and Next.js applications that directly impact business outcomes. Proven track record of accelerating feature delivery by ~60% through modular architecture and reusable design systems adopted across multiple enterprise platforms.
+       leading frontend initiatives for large-scale government and PIF-backed projects in Saudi Arabia, delivering high-performance applications used in critical digital ecosystems.`,
     },
     experience: [
         {
