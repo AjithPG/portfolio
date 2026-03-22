@@ -13,15 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 import { ThemeProvider } from "@/components/theme-provider";
-import { Navbar } from "@/components/Navbar";
+import { Header } from "@/components/Header";
 
-export const metadata: Metadata = {
-  title: "Ajith | Front End Developer",
-  description: "Modern portfolio website of Ajith, a passionate Front End Developer specializing in React and Next.js.",
-  metadataBase: new URL("https://ajith-portfolio.vercel.app"), // Placeholder
-};
-
-import { Footer } from "@/components/Footer";
 
 export default function RootLayout({
   children,
@@ -30,8 +23,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <meta name="apple-mobile-web-app-title" content="Ajith" />
+      </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased selection:bg-gray-100`}
       >
         <ThemeProvider
           attribute="class"
@@ -39,13 +35,16 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="flex min-h-screen flex-col">
-            <Navbar />
+          <div className="flex min-h-screen flex-col bg-background transition-colors duration-500">
+            <Header />
             <main className="flex-1">{children}</main>
-            <Footer />
           </div>
         </ThemeProvider>
+
+
       </body>
     </html>
   );
 }
+
+
