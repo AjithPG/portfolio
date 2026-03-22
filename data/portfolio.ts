@@ -16,10 +16,8 @@ export const portfolioData = {
             period: "May 2021 — Present",
             status: "Present",
             location: "Kochi & Saudi Arabia",
-            description: "Leading the design system and user experience for multiple high-impact projects. Collaborating with cross-functional teams to deliver premium products.",
-            highlights:["Rolled out branch-specifi c features across 7 Intesa Sanpaolo branches, by completing testing prior to deployment and enabling smoother branch transitions.",
-                "Designed & delivered a Unifi ed Functional Testing (UFT) automation framework, automating core functional and regression scenarios (covering 500+ use cases), which reduced test cycle time before per release and elevated regression bug detection by 70% compared to manual testing"
-            ],
+            description: "Engineered a scalable full-stack solution using React, TypeScript, Redux, Material UI, and Node.js (TypeORM), and implemented interactive data visualizations with Recharts to deliver actionable business insights.",
+            highlights:["Built a scalable complaint management platform enabling users to submit, track, and resolve complaints efficiently through a centralized system, improving operational transparency and response handling","Integrated RESTful APIs to enable real-time data synchronization and seamless complaint lifecycle management, ensuring reliable communication between frontend and backend systems."],
             tech: ["React Js", "Redux", "TypeScript","Material UI","Node Js","Figma","Jest"],
             icon: "Briefcase",
             color: "primary",
