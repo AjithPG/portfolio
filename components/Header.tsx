@@ -1,5 +1,5 @@
 import { portfolioData } from "@/data/portfolio"
-import { ModeToggle } from "./mode-toggle"
+import { ModeToggle } from "./common/mode-toggle"
 
 export function Header() {
     return (

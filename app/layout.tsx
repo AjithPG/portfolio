@@ -16,6 +16,28 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { Header } from "@/components/Header";
 
 
+export const metadata: Metadata = {
+  title: "Ajith PG | Front End Engineer",
+  description: "Product-driven Front-End Engineer with 5+ years of experience building scalable, high-performance web applications using React, Next.js, and TypeScript.",
+  keywords: ["Front End Engineer", "React Developer", "Ajith PG", "Portfolio", "Web Developer"],
+  authors: [{ name: "Ajith PG" }],
+  openGraph: {
+    title: "Ajith PG | Front End Engineer",
+    description: "Product-driven Front-End Engineer with 5+ years of experience building scalable, high-performance web applications.",
+    url: "https://ajith-portfolio.vercel.app",
+    siteName: "Ajith PG Portfolio",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ajith PG | Front End Engineer",
+    description: "Portfolio of a Product-driven Front-End Engineer specialized in React and Next.js.",
+  },
+  appleWebApp: {
+    title: "Ajith",
+  },
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -23,9 +45,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        <meta name="apple-mobile-web-app-title" content="Ajith" />
-      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased selection:bg-gray-100`}
       >
@@ -40,11 +59,10 @@ export default function RootLayout({
             <main className="flex-1">{children}</main>
           </div>
         </ThemeProvider>
-
-
       </body>
     </html>
   );
 }
+
 
 

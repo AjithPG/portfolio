@@ -39,7 +39,7 @@ export function ListCard({ title, description, icon, linkText, url, color }: Lis
                             href={url}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-flex items-center gap-1.5 text-[12px] font-bold text-foreground hover:text-primary transition-colors group/link opacity-80 hover:opacity-100"
+                            className="inline-flex items-center gap-1 text-sm font-medium px-3 py-1.5 rounded-lg transition-all duration-300 bg-gray-100 text-gray-900 hover:bg-gray-200"
                         >
                             {linkText} <ArrowUpRight className="h-4 w-4 transform group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform" />
                         </a>

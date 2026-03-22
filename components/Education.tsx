@@ -1,6 +1,6 @@
 import { portfolioData } from "@/data/portfolio"
 import { Section } from "./Section"
-import { ExperienceCard } from "./ExperienceCard"
+import { ExperienceCard } from "./common/ExperienceCard"
 
 export function Education() {
     return (

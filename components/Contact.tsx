@@ -1,6 +1,6 @@
 import { portfolioData } from "@/data/portfolio"
 import { Section } from "./Section"
-import { ContactCard } from "./ContactCard"
+import { ContactCard } from "./common/ContactCard"
 
 export function Contact() {
     return (

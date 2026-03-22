@@ -1,6 +1,6 @@
 import { portfolioData } from "@/data/portfolio"
 import { Section } from "./Section"
-import { ProjectCard } from "./ProjectCard"
+import { ProjectCard } from "./common/ProjectCard"
 
 export function Projects() {
     return (

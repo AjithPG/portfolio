@@ -1,5 +1,5 @@
-import { Badge } from "@/components/ui/badge"
-import { LucideIcon, Briefcase, Laptop, Pencil, Gamepad2, GraduationCap } from "lucide-react"
+import { LucideIcon, Briefcase, Laptop, Pencil, GraduationCap } from "lucide-react"
+
 
 const iconMap: Record<string, LucideIcon> = {
     Briefcase: Briefcase,
@@ -68,7 +68,7 @@ export function ExperienceCard({
                             )}
                         </div>
                         <p className="text-muted-foreground font-medium text-sm mt-0.5 transition-colors">{company}</p>
-                        <p className="text-xs text-muted-foreground/60 mt-1 transition-colors">{location}</p>
+                        <p className="text-xs text-muted-foreground mt-1 transition-colors">{location}</p>
                     </div>
                 </div>
                 <div className="md:text-right shrink-0">

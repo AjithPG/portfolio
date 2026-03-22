@@ -1,4 +1,5 @@
-import { Linkedin,Github, Mail, MessageCircle, MapPin, LucideIcon, ArrowUpRight } from "lucide-react"
+import { Linkedin,Github, Mail, MessageCircle, LucideIcon, ArrowUpRight } from "lucide-react"
+
 
 const iconMap: Record<string, LucideIcon> = {
     Linkedin: Linkedin,

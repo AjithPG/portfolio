@@ -22,7 +22,7 @@ export function Hero() {
             <h1 className="text-2xl font-bold tracking-tight text-foreground transition-colors">{portfolioData.name}</h1>
             <p className="text-muted-foreground font-medium text-sm mt-0.5 transition-colors">{portfolioData.role}</p>
             {portfolioData.company && (
-              <p className="mt-1 text-xs text-muted-foreground/60 font-medium uppercase tracking-wider transition-colors">
+              <p className="mt-1 text-xs text-muted-foreground font-medium uppercase tracking-wider transition-colors">
                 {portfolioData.company}
               </p>
             )}
