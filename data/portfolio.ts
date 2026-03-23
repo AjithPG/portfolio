@@ -7,7 +7,7 @@ export const portfolioData = {
     about: {
         title: "About",
         content: `Product-driven Frontend Engineer with 5+ years of experience building scalable React and Next.js applications that directly impact business outcomes. Proven track record of accelerating feature delivery by ~60% through modular architecture and reusable design systems adopted across multiple enterprise platforms.
-       leading frontend initiatives for large-scale government and PIF-backed projects in Saudi Arabia, delivering high-performance applications used in critical digital ecosystems.`,
+       Leading frontend initiatives for large-scale government and PIF-backed projects in Saudi Arabia, delivering high-performance applications used in critical digital ecosystems.`,
     },
     experience: [
         {
@@ -17,8 +17,8 @@ export const portfolioData = {
             status: "Present",
             location: "Kochi & Saudi Arabia",
             description: "Engineered a scalable full-stack solution using React, TypeScript, Redux, Material UI, and Node.js (TypeORM), and implemented interactive data visualizations with Recharts to deliver actionable business insights.",
-            highlights:["Built a scalable complaint management platform enabling users to submit, track, and resolve complaints efficiently through a centralized system, improving operational transparency and response handling","Integrated RESTful APIs to enable real-time data synchronization and seamless complaint lifecycle management, ensuring reliable communication between frontend and backend systems."],
-            tech: ["React Js", "Redux", "TypeScript","Material UI","Node Js","Figma","Jest"],
+            highlights: ["Built a scalable complaint management platform enabling users to submit, track, and resolve complaints efficiently through a centralized system, improving operational transparency and response handling", "Integrated RESTful APIs to enable real-time data synchronization and seamless complaint lifecycle management, ensuring reliable communication between frontend and backend systems."],
+            tech: ["React Js", "Redux", "TypeScript", "Material UI", "Node Js", "Figma", "Jest"],
             icon: "Briefcase",
             color: "primary",
         },
@@ -27,13 +27,13 @@ export const portfolioData = {
             company: "NEOM- Contract",
             period: "Feb 2024 — Apr 2025",
             location: "Riyadh, Saudi Arabia",
-            description:"",
-            highlights:["Developed a Report a Business web application from scratch using React, TypeScript & Tailwind CSS for the NEOM’s Community",
-                "Led a 3-member frontend squad onsite, coordinating with backend teams to design and integrate RESTful APIs","Integrated Pega CRM with React frontend to streamline customer service workflows",
+            description: "",
+            highlights: ["Developed a Report a Business web application from scratch using React, TypeScript & Tailwind CSS for the NEOM’s Community",
+                "Led a 3-member frontend squad onsite, coordinating with backend teams to design and integrate RESTful APIs", "Integrated Pega CRM with React frontend to streamline customer service workflows",
                 "Implemented Storybook for component documentation and design system standardization"
             ],
-            tech: ["React Js", "Redux", "TypeScript","Tailwind CSS","Storybook","Jest","Pega","Figma"],
-             icon: "Briefcase",
+            tech: ["React Js", "Redux", "TypeScript", "Tailwind CSS", "Storybook", "Jest", "Pega", "Figma"],
+            icon: "Briefcase",
             color: "primary",
         },
         {
@@ -42,10 +42,10 @@ export const portfolioData = {
             period: "Jun 2020 — Apr 2021",
             location: "Thrissur, Kerala",
             description: "Led end-to-end delivery of 5+ SEO-optimized websites across e-commerce, healthcare, and CMS verticals, achieving top-3 Google rankings for 40+ target keywords, and boosting organic traffi c by ~30%",
-            highlights:["Engineered responsive React.js applications by translating UX/UI designs into streamlined HTML/JavaScript /CSS code and building a component modular library, which reduced frontend load time by 40%, cut duplicated code by 25%, and accelerated new feature rollout by 35%."],
-            tech: ["React Js", "JavaScript", "SASS","Adobe XD"],
-             icon: "Briefcase",
-           color: "primary",
+            highlights: ["Engineered responsive React.js applications by translating UX/UI designs into streamlined HTML/JavaScript /CSS code and building a component modular library, which reduced frontend load time by 40%, cut duplicated code by 25%, and accelerated new feature rollout by 35%."],
+            tech: ["React Js", "JavaScript", "SASS", "Adobe XD"],
+            icon: "Briefcase",
+            color: "primary",
         },
         {
             role: "Front End Developer",
@@ -54,7 +54,7 @@ export const portfolioData = {
             location: "Coimbatore, Tamil Nadu",
             description: `Designed and developed a customer-facing website for an agriculture-based food products company, driving a 30% increase in online sales.
             Improved web performance by integrating SEO techniques and performance tuning`,
-            tech: ["HTML", "CSS", "JavaScript", "Jquery","Bootstrap"],
+            tech: ["HTML", "CSS", "JavaScript", "Jquery", "Bootstrap"],
             icon: "Briefcase",
             color: "primary",
         },
@@ -74,19 +74,19 @@ export const portfolioData = {
             category: "Technology Stack",
             icon: "Layout",
             color: "blue",
-            items: ["React JS", "Next Js", "Javascript" , "TypeScript", "Redux","Material UI", "Tailwind CSS","SCSS","Shadcn UI","Tanstack Query","Jest","Storybook","MySQL"],
+            items: ["React JS", "Next Js", "Javascript", "TypeScript", "Redux", "Material UI", "Tailwind CSS", "SCSS", "Shadcn UI", "Tanstack Query", "Jest", "Storybook", "MySQL"],
         },
         {
             category: "Design",
             icon: "Pencil",
             color: "violet",
-            items: ["Figma","Adobe XD"],
+            items: ["Figma", "Adobe XD"],
         },
         {
             category: "Tools",
             icon: "Box",
             color: "emerald",
-            items: ["Git", "GitHub", "VS Code", "Vite", "Vercel","Webpack","Jira","Postman","Chrome DevTools","Framer Motion","Rest API Integration"],
+            items: ["Git", "GitHub", "VS Code", "Vite", "Vercel", "Webpack", "Jira", "Postman", "Chrome DevTools", "Framer Motion", "Rest API Integration"],
         },
     ],
     certifications: [
