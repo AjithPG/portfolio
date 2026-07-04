@@ -9,15 +9,15 @@ import { Education } from "../components/Education";
 import { Contact } from "../components/Contact";
 import { portfolioData } from "../data/portfolio";
 
-
 export default function Home() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
-    "name": portfolioData.name,
-    "jobTitle": portfolioData.role,
-    "url": "https://ajith-portfolio.vercel.app",
-    "sameAs": [],
+    name: portfolioData.name,
+    jobTitle: portfolioData.role,
+    image: "/portfolio-banner.png",
+    url: "https://ajith-portfolio.vercel.app",
+    sameAs: [],
   };
 
   return (
@@ -38,7 +38,5 @@ export default function Home() {
         <Contact />
       </div>
     </div>
-
   );
 }
-

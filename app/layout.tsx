@@ -15,15 +15,37 @@ const geistMono = Geist_Mono({
 import { ThemeProvider } from "@/components/theme-provider";
 import { Header } from "@/components/Header";
 
-
 export const metadata: Metadata = {
   title: "Ajith PG | Front End Engineer",
-  description: "Product-driven Front-End Engineer with 5+ years of experience building scalable, high-performance web applications using React, Next.js, and TypeScript.",
-  keywords: ["Front End Engineer", "React Developer", "Ajith PG", "Portfolio", "Web Developer"],
+  description:
+    "Product-driven Front-End Engineer with 5+ years of experience building scalable, high-performance web applications using React, Next.js, and TypeScript.",
+  keywords: [
+    "Front End Engineer",
+    "React Developer",
+    "Ajith PG",
+    "Portfolio",
+    "Web Developer",
+  ],
   authors: [{ name: "Ajith PG" }],
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "https://ajith-portfolio.vercel.app",
+  },
   openGraph: {
     title: "Ajith PG | Front End Engineer",
-    description: "Product-driven Front-End Engineer with 5+ years of experience building scalable, high-performance web applications.",
+    description:
+      "Product-driven Front-End Engineer with 5+ years of experience building scalable, high-performance web applications.",
+    images: [
+      {
+        url: "/portfolio-banner.png",
+        width: 1200,
+        height: 630,
+        alt: "Ajith PG Portfolio",
+      },
+    ],
     url: "https://ajith-portfolio.vercel.app",
     siteName: "Ajith PG Portfolio",
     type: "website",
@@ -31,7 +53,16 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Ajith PG | Front End Engineer",
-    description: "Portfolio of a Product-driven Front-End Engineer specialized in React and Next.js.",
+    description:
+      "Portfolio of a Product-driven Front-End Engineer specialized in React and Next.js.",
+    images: [
+      {
+        url: "/portfolio-banner.png",
+        width: 1200,
+        height: 630,
+        alt: "Ajith PG Portfolio",
+      },
+    ],
   },
   appleWebApp: {
     title: "Ajith",
@@ -63,6 +94,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-
-
